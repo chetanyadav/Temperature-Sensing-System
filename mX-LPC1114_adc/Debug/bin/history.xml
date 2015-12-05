@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=mX-LPC1114_adc.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\mX-LPC1114_adc -TC:\CooCox\CoIDE\configuration\ProgramData\mX-LPC1114_adc/arm-gcc-link.ld -g">
+      <target file="mX-LPC1114_adc.elf" lastModified="151201805ad">
+         <source file="..\obj\Simple_ADC.o" lastModified="15120180312"/>
+         <source file="..\obj\system_LPC11xx.o" lastModified="1511fdafb02"/>
+         <source file="..\obj\main.o" lastModified="15120162044"/>
+         <source file="..\obj\lpc11xx_syscon.o" lastModified="1511fdafdb3"/>
+         <source file="..\obj\lpc11xx_iocon.o" lastModified="1511fdafebf"/>
+         <source file="..\obj\syscalls.o" lastModified="1511fdaffc7"/>
+         <source file="..\obj\lpc11xx_adc.o" lastModified="1511fdb00b7"/>
+         <source file="..\obj\startup_lpc11xx.o" lastModified="1511fdb014f"/>
+         <source file="..\obj\lcd.o" lastModified="1511fdb0202"/>
+         <source file="..\obj\core_cm0.o" lastModified="1511fdb02a2"/>
+      </target>
+   </processor>
+</history>

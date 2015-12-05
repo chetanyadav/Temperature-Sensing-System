@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DLPC1114x301 -ID:\Technologies\ARM cortex M0\NOV15\Workspace\code3 -ID:\Technologies\ARM cortex M0\NOV15\Workspace\code3\mX-LPC1114_adc\cmsis_lpc11xx -ID:\Technologies\ARM cortex M0\NOV15\Workspace\code3\mX-LPC1114_adc -ID:\Technologies\ARM cortex M0\NOV15\Workspace\code3\mX-LPC1114_adc\LPC111x_Lib\include -ID:\Technologies\ARM cortex M0\NOV15\Workspace -ID:\Technologies\ARM cortex M0\NOV15\Workspace\code3\mX-LPC1114_adc\cmsis_core -ID:\Technologies\ARM cortex M0\NOV15\Workspace\code3\mX-LPC1114_adc\LPC111x_Lib">
+      <target file="Simple_ADC.o" lastModified="15120180312">
+         <source file="..\..\..\example\Simple_ADC.c" lastModified="1512017fd74"/>
+      </target>
+      <target file="syscalls.o" lastModified="1511fdaffc7">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="12ec7ba78d0"/>
+      </target>
+      <target file="lpc11xx_adc.o" lastModified="1511fdb00b7">
+         <source file="..\..\..\LPC111x_Lib\source\lpc11xx_adc.c" lastModified="12e9e99e080"/>
+      </target>
+      <target file="lpc11xx_iocon.o" lastModified="1511fdafebf">
+         <source file="..\..\..\LPC111x_Lib\source\lpc11xx_iocon.c" lastModified="12ec7ba2ab0"/>
+      </target>
+      <target file="startup_lpc11xx.o" lastModified="1511fdb014f">
+         <source file="..\..\..\cmsis_lpc11xx\startup\startup_lpc11xx.c" lastModified="12ec7ba9fe0"/>
+      </target>
+      <target file="lpc11xx_syscon.o" lastModified="1511fdafdb3">
+         <source file="..\..\..\LPC111x_Lib\source\lpc11xx_syscon.c" lastModified="12e9e99b970"/>
+      </target>
+      <target file="main.o" lastModified="15120162044">
+         <source file="..\..\..\main.c" lastModified="15120161cab"/>
+      </target>
+      <target file="lcd.o" lastModified="1511fdb0202">
+         <source file="..\..\..\lcd.c" lastModified="12e9e9b1130"/>
+      </target>
+      <target file="core_cm0.o" lastModified="1511fdb02a2">
+         <source file="..\..\..\cmsis_core\core_cm0.c" lastModified="12ec7ba2ab0"/>
+      </target>
+      <target file="system_LPC11xx.o" lastModified="1511fdafb02">
+         <source file="..\..\..\cmsis_lpc11xx\system_LPC11xx.c" lastModified="12ec7ba9fe0"/>
+      </target>
+   </processor>
+</history>
